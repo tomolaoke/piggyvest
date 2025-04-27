@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiggyVest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Navigation: Contains the logo, navigation links, and buttons -->
+    <div class="header">
+        <div class="header-content">
+            <div class="header-logo">
+                <img src="./assets/piggvestlogo.svg" alt="PiggyVest Logo">
+                <div class="header-links">
+                    <!-- Dropdown arrow SVG -->
+                    <a href="#">Save<span><img src="./assets/dropdown-arrow.svg" alt="Dropdown Arrow" style="width: 18px; margin: 0; vertical-align: middle;"></span></a>
+                    <a href="#">Invest</a>
+                    <a href="#">Stories</a>
+                    <a href="#">FAQs</a>
+                    <!-- Dropdown arrow SVG -->
+                    <a href="#">Resources<span><img src="./assets/dropdown-arrow.svg" alt="Dropdown Arrow" style="width: 18px; margin: 0; vertical-align: middle;"></span></a>
+                </div>
+            </div>
+            <div class="header-buttons">
+                <button class="header-button-signin">Sign in</button>
+                <button class="header-button-signup">Create free account</button>
+            </div>
+            <!-- Hamburger menu icon for mobile navigation -->
+            <div class="mobile-menu">☰</div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="first-section">
+        <div class="hero">
+            <div class="hero-text">
+                <div class="hero-report">
+                    <!-- YellowFlower SVG Icon for the savings report -->
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32 15.9904C31.9832 13.4471 29.9905 11.3781 27.4809 11.2432C28.2923 10.3396 28.7026 9.20001 28.7026 8.05704C28.6902 6.8455 28.2373 5.60924 27.3078 4.6798C25.4973 2.89285 22.6258 2.8389 20.7557 4.51909C20.6905 3.30643 20.1746 2.21066 19.3666 1.40147C18.5012 0.552945 17.3065 0 15.9916 0C13.4483 0.0168581 11.3792 2.00948 11.2443 4.51909C10.3407 3.70765 9.20115 3.29744 8.05817 3.29744C6.84663 3.3098 5.61037 3.76272 4.6798 4.69216C2.89285 6.50272 2.83891 9.37421 4.5191 11.2443C2.00949 11.3792 0.0168581 13.4471 0 15.9916C0 17.3065 0.554079 18.5012 1.40148 19.3666C2.20954 20.1746 3.30644 20.6905 4.5191 20.7557C2.84003 22.6258 2.89285 25.4973 4.6798 27.3078C5.61037 28.2384 6.84551 28.6913 8.05704 28.7026C9.20002 28.7026 10.3396 28.2912 11.2432 27.4809C11.3781 29.9905 13.446 31.9831 15.9905 32C17.3054 32 18.5001 31.4459 19.3654 30.5985C20.1735 29.7905 20.6894 28.6936 20.7545 27.4809C22.6247 29.1611 25.4962 29.1072 27.3067 27.3202C28.2373 26.3896 28.6902 25.1545 28.7014 23.943C28.7014 22.8 28.2901 21.6604 27.4798 20.7568C28.6924 20.6916 29.7893 20.1757 30.5974 19.3677C31.4459 18.5023 31.9989 17.3076 31.9989 15.9927L32 15.9904Z" fill="#FFE201" class="flower-icon"></path>
+                        <g class="book-symbol">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.6667 11.3335C20.6667 10.9653 20.3682 10.6668 20 10.6668L12 10.6668C11.6318 10.6668 11.3333 10.9653 11.3333 11.3335L11.3333 20.6668C11.3333 21.035 11.6318 21.3335 12 21.3335L20 21.3335C20.3682 21.3335 20.6667 21.035 20.6667 20.6668L20.6667 11.3335ZM20 9.3335C21.1046 9.3335 22 10.2289 22 11.3335L22 20.6668C22 21.7714 21.1046 22.6668 20 22.6668L12 22.6668C10.8954 22.6668 10 21.7714 10 20.6668L10 11.3335C10 10.2289 10.8954 9.3335 12 9.3335L20 9.3335Z" fill="black"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 14.0002C12 13.632 12.2985 13.3335 12.6667 13.3335H19.3333C19.7015 13.3335 20 14.0002 20 14.0002C20 14.3684 19.7015 14.6668 19.3333 14.6668H12.6667C12.2985 14.6668 12 14.3684 12 14.0002Z" fill="black"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 12.0002C12 11.632 12.2985 11.3335 12.6667 11.3335H15.3333C15.7015 11.3335 16 12.0002 16 12.0002C16 12.3684 15.7015 12.6668 15.3333 12.6668H12.6667C12.2985 12.6668 12 12.3684 12 12.0002Z" fill="black"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18 19.3332C18.3682 19.3332 18.6667 19.0347 18.6667 18.6665V17.3332C18.6667 16.965 18.3682 16.6665 18 16.6665H14C13.6318 16.6665 13.3333 16.965 13.3333 17.3332V18.6665C13.3333 19.0347 13.6318 19.3332 14 19.3332H18ZM20 18.6665C20 19.7711 19.1046 20.6665 18 20.6665H14C12.8954 20.6665 12 19.7711 12 18.6665V17.3332C12 16.2286 12.8954 15.3332 14 15.3332H18C19.1046 15.3332 20 16.2286 20 17.3332V18.6665Z" fill="black"></path>
+                        </g>
+                    </svg>
+                    The 2024 PiggyVest Savings Report
+                </div>
+                <h1>The Better Way to Save & Invest</h1>
+                <p>PiggyVest helps over 5 million customers achieve their financial goals by helping them save and invest with ease.</p>
+                <button><img src="./assets/whiteAppleLogo.svg" style="width: 20px">Get on iPhone</button>
+                <button><img src="./assets/googleplay-icon.svg">Get on Android</button>
+            </div>
+            <div class="hero-images">
+                <img src="./assets/pexels-ketut-subiyanto-4350099.avif" class="main-image" alt="Hero Image">
+                <img src="./assets/Frame 80.png" alt="Small Left 1" class="overlay-image side-left position-1">
+                <img src="./assets/Frame 79.png" alt="Small Left 2" class="overlay-image side-left position-2">
+                <img src="./assets/Frame 1020.png" alt="Small Left 3" class="overlay-image side-left position-3">
+                <img src="./assets/Frame 78.png" alt="Small Right 1" class="overlay-image side-right position-4">
+                <img src="./assets/Frame 18.png" alt="Small Right 2" class="overlay-image side-right position-5">
+                <img src="./assets/Frame 82.png" alt="Small Right 3" class="overlay-image side-right position-6">
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Section -->
+    <section class="security-section">
+        <div class="security-content">
+            <img src="./assets/securitylock.svg" alt="Security Lock Icon">
+            <div class="security-details">
+                <h1>Your security is our priority</h1>
+                <p>PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL security encryption to ensure that your information is completely protected from fraud.</p>
+                <h4>More on our security measures</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Savings Intro -->
+    <section class="savings-intro">
+        <div class="savings-text">
+            <h1>Many ways to build your savings</h1>
+            <p>Earn 12%-22% when you save with any of these PiggyVest plans.</p>
+        </div>
+    </section>
+
+    <!-- Savings Grid -->
+    <div class="savings-grid">
+        <div class="grid-item item-1">
+            <div class="item-content">
+                <span class="item-text">
+                    <h1>Automated Savings</h1>
+                    <p>Build a dedicated savings faster on your terms, automatically or manually.</p>
+                    <h5>Piggybank</h5>
+                </span>
+                <div class="item-overlay">
+                    <img src="./assets/PB 18 Small.png" alt="Automated Savings Image">
+                    <div class="overlay-text">
+                        <h1>Automated Savings</h1>
+                        <p>Build a dedicated savings faster on your terms, automatically or manually.</p>
+                        <h5>Piggybank</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item item-2">
+            <div class="item-content">
+                <span class="item-text">
+                    <h1>Fixed Savings</h1>
+                    <p>Lock money away for a fixed duration without having access to it until maturity. It's like having a custom fixed deposit.</p>
+                    <h5>Safelock</h5>
+                </span>
+                <div class="item-overlay">
+                    <img src="./assets/SL 22 Small.png" alt="Fixed Savings Image">
+                    <div class="overlay-text">
+                        <h1>Fixed Savings</h1>
+                        <p>Lock money away for a fixed duration without having access to it until maturity. It's like having a custom fixed deposit.</p>
+                        <h5>Safelock</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item item-3">
+            <div class="item-content">
+                <span class="item-text">
+                    <h1>Goal-Oriented Savings</h1>
+                    <p>Reach all your savings goals faster. Save towards multiple goals on your own or with a group.</p>
+                    <h5>Target Savings</h5>
+                </span>
+                <div class="item-overlay">
+                    <img src="./assets/iphonw.avif" alt="Goal-Oriented Savings Image">
+                    <div class="overlay-text">
+                        <h1>Goal-Oriented Savings</h1>
+                        <p>Reach all your savings goals faster. Save towards multiple goals on your own or with a group.</p>
+                        <h5>Target Savings</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item item-4">
+            <div class="item-content">
+                <span class="item-text">
+                    <h1>Flex Naira</h1>
+                    <p>Save, transfer, manage, organise, and withdraw your money at any time.</p>
+                    <h5>Flex Naira</h5>
+                </span>
+                <div class="item-overlay">
+                    <img src="./assets/iPhone 14.avif" alt="Flex Naira Image">
+                    <div class="overlay-text">
+                        <h1>Flex Naira</h1>
+                        <p>Save, transfer, manage, organise, and withdraw your money at any time.</p>
+                        <h5>Flex Naira</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item item-5">
+            <div class="item-content">
+                <span class="item-text">
+                    <h1>Flex Dollar</h1>
+                    <p>Save and grow your money in foreign currencies such as Dollars.</p>
+                    <h5>Flex Dollar</h5>
+                </span>
+                <div class="item-overlay">
+                    <img src="./assets/iphone12.avif" alt="Flex Dollar Image">
+                    <div class="overlay-text">
+                        <h1>Flex Dollar</h1>
+                        <p>Save and grow your money in foreign currencies such as Dollars.</p>
+                        <h5>Flex Dollar</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item item-6">
+            <div class="item-content">
+                <span class="item-text">
+                    <h1>HouseMoney</h1>
+                    <p>Plan for your rent and household expenses</p>
+                    <h5>HouseMoney</h5>
+                </span>
+                <div class="item-overlay">
+                    <img src="./assets/iPhone 14 - 1.png" alt="HouseMoney Image">
+                    <div class="overlay-text">
+                        <h1>HouseMoney</h1>
+                        <p>Plan for your rent and household expenses</p>
+                        <h5>HouseMoney</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Investment Intro -->
+    <section class="investment-intro">
+        <div class="investment-text">
+            <h1>Diverse ways to Invest</h1>
+            <p>Grow your money and invest for your future confidently.</p>
+        </div>
+    </section>
+
+    <!-- Investment Details -->
+    <section class="investment-details">
+        <div class="investment-card">
+            <div class="investment-card-text">
+                <h1>Earn Up to 35% returns</h1>
+                <p>Invest securely and confidently on the go. Grow your money confidently by investing in pre-vetted investment opportunities.</p>
+                <h5>Learn about Investments</h5>
+            </div>
+            <div class="investment-card-image">
+                <img src="./assets/iphoneInvest.avif" alt="Investment Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Saver Spotlight -->
+    <section class="saver-spotlight">
+        <div class="spotlight-content">
+            <h1>Meet Our Saver of the Month</h1>
+            <p>Every month, we shine a spotlight on one saver, asking them about their savings culture and how PiggyVest has helped them.</p>
+            <iframe width="790" height="444" src="https://www.youtube.com/embed/2EnGMGxKuII?si=FheL7xtBxdsvMS0h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="cta-image">
+            <img src="assets/phonetxtImg.png" alt="Join PiggyVest Image">
+        </div>
+        <div class="cta-text">
+            <h1>Join 5+ million people who save and invest with us</h1>
+            <div class="cta-buttons">
+                <p><img src="./assets/appstore-icon.svg" alt="AppStore Icon">Get on iPhone</p>
+                <p><img src="./assets/googleplay-icon.svg" alt="GooglePlay Store Icon">Get on Android</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured In: logos of companies that featured PiggyVest -->
+    <section class="featured-heading">
+        <div class="featured-title">
+            <h1>As featured in</h1>
+        </div>
+    </section>
+    <section class="featured-logos-section">
+        <div class="featured-logos">
+            <img src="./assets/techcabal.png" alt="TechCabal Logo">
+            <img src="./assets/cnbc.png" alt="CNBC Logo">
+            <img src="./assets/techcrunch.png" alt="TechCrunch Logo">
+            <img src="./assets/pymnts.svg" alt="Pymnts Logo">
+            <img src="./assets/fastcomp.svg" alt="Fast Company Logo">
+            <img src="./assets/cio.svg" alt="CIO Logo">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="site-footer">
+        <div class="footer-branding">
+            <img src="./assets/greylogo.svg" alt="PiggyVest Grey Logo">
+            <img src="./assets/compliance-378fe121550ceac55d0eeb8c5edac2e7.avif" alt="Compliance Badge">
+        </div>
+        <div class="footer-links">
+            <div class="links-group">
+                <p>Products</p>
+                <a href="#">Piggybank</a>
+                <a href="#">Invest</a>
+                <a href="#">Safelock</a>
+                <a href="#">Target Savings</a>
+                <a href="#">Flex Naira</a>
+                <a href="#">Flex Dollar</a>
+            </div>
+            <div class="links-group">
+                <p>Company</p>
+                <a href="#">About</a>
+                <a href="#">FAQs</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="links-group">
+                <p>Legal</p>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+            </div>
+        </div>
+        <div class="footer-contact">
+            <div class="social-icons">
+                <img src="./assets/facebook.svg" alt="Facebook Icon">
+                <img src="./assets/instagram.svg" alt="Instagram Icon">
+                <img src="./assets/twitter.svg" alt="Twitter Icon">
+                <img src="./assets/titkok.svg" alt="TikTok Icon">
+                <img src="./assets/youtube.svg" alt="YouTube Icon">
+            </div>
+            <!-- Grouped address -->
+            <div class="contact-address">
+                <p>Tesmot house, Abdulrahman Okene close, Victoria Island, Lagos, Nigeria.</p>
+            </div>
+            <!-- Email and phone number -->
+            <div class="contact-info">
+                <p>contact@piggyvest.com</p>
+                <p>+234 700 933 9339</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Info: Additional information and copyright -->
+    <section class="footer-details">
+        <div class="details-content">
+            <p class="details-description">PiggyVest (formerly piggybank.ng) is the leading online savings & investing platform in Nigeria. For over 9 years, our customers have saved and invested billions of Naira that they would normally be tempted to spend.</p>
+            <p class="details-regulatory">Capital Limited is a fund manager duly licensed by the Securities and Exchange Commission (SEC) of Nigeria.</p>
+            <p class="details-copyright" style="color: blue;">2016-2025 PiggyTech Global Limited - RC 1405222</p>
+        </div>
+    </section>
+
+    <!-- JavaScript for header scroll effect -->
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.classList.add('header-scrolled');
+            } else {
+                header.classList.remove('header-scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
