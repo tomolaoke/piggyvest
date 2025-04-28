@@ -147,10 +147,22 @@ section {
   background-color: #0089fb;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
+  margin-right: 6px;
 }
 
 .hero-report:hover svg {
   background-color: black;
+  animation: spin 1s linear infinite;
+}
+
+/* Keyframes for spinning animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Text content in the hero section */
