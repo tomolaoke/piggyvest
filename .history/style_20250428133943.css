@@ -956,8 +956,10 @@ section {
 .site-footer {
   display: flex;
   justify-content: space-between;
-  width: 70%;
-  margin-left: 10%;
+  width: 90%;
+  border: 10px solid grey;
+  margin-left: 10%
+  background-color: #ffffff;
 }
 
 /* Footer branding (logo and compliance badge) */

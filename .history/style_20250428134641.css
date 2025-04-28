@@ -958,6 +958,7 @@ section {
   justify-content: space-between;
   width: 70%;
   margin-left: 10%;
+  background-color: #ffffff;
 }
 
 /* Footer branding (logo and compliance badge) */
@@ -1045,11 +1046,12 @@ section {
   flex-direction: column;
   width: 60%;
   border-top: 1px solid grey;
-  margin-left: 15%;
+  margin-left: 35%;
   align-items: start;
   font-size: 11px;
   line-height: 20px;
   color: rgb(168, 168, 168);
+  background-color: white;
 }
 
 .details-description {

@@ -957,7 +957,9 @@ section {
   display: flex;
   justify-content: space-between;
   width: 70%;
+  border-top: 1px solid grey;
   margin-left: 10%;
+  background-color: #ffffff;
 }
 
 /* Footer branding (logo and compliance badge) */

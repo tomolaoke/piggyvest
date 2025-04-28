@@ -958,6 +958,7 @@ section {
   justify-content: space-between;
   width: 70%;
   margin-left: 10%;
+  background-color: #ffffff;
 }
 
 /* Footer branding (logo and compliance badge) */
@@ -987,7 +988,7 @@ section {
 
 /* Links within each group */
 .links-group a {
-  color: rgb(161, 160, 160);
+  /* color: rgb(161, 160, 160); */
   font-size: 14px;
   text-decoration: none;
   margin-bottom: 10%;
