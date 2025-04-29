@@ -132,7 +132,7 @@ section {
   display: flex;
   align-items: center;
   border-radius: 50px;
-  width: 80%;
+  width: 75%;
   padding: 10px;
   color: white;
   font-weight: bold;
@@ -180,6 +180,13 @@ section {
 /* Paragraph text in the hero section */
 .hero-text p {
   color: rgb(61, 79, 96);
+  tomolaoke
+  updated the yellowflow icon to spin on hover is it working?
+  
+  GitHub Copilot
+  Looking at the code, I can see the spin animation is implemented for the report badge SVG icon in the hero section. Here's the relevant code:
+  
+  
   font-size: 20px;
   line-height: 32px;
   width: 70%;
