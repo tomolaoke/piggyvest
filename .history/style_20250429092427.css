@@ -147,7 +147,7 @@ section {
   background-color: #0089fb;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-  margin-right: 8px;
+  margin-right: 6px;
 }
 
 .hero-report:hover svg {
@@ -183,7 +183,7 @@ section {
   font-size: 20px;
   line-height: 32px;
   width: 70%;
-  margin: 4% 0;
+  margin: % 0;
 }
 
 /* Buttons in the hero section (App Store, Google Play) */
